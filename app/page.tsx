@@ -57,14 +57,4 @@ export default function Home() {
       </div>
     </main>
   );
-}Sgit add .
-git commit -m "Update homepage with RookieAgent branding"
-git push
-git push origin main
-git status
-git add app/page.tsx
-git commit -m "Add RookieAgent homepage"
-git push origin main
-git push origin main
-CCCgit log --oneline
-git log --oneline
+
