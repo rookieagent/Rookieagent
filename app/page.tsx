@@ -1,4 +1,4 @@
-AAC:\Users\12568\projects\rookieagentVexport default function Home() {
+export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <div className="max-w-6xl mx-auto px-4 py-16">
@@ -57,4 +57,14 @@ AAC:\Users\12568\projects\rookieagentVexport default function Home() {
       </div>
     </main>
   );
-}
+}Sgit add .
+git commit -m "Update homepage with RookieAgent branding"
+git push
+git push origin main
+git status
+git add app/page.tsx
+git commit -m "Add RookieAgent homepage"
+git push origin main
+git push origin main
+CCCgit log --oneline
+git log --oneline
