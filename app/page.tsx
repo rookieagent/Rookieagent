@@ -31,6 +31,31 @@ export default function Home() {
           >
             Get Started
           </button>
+
+    {/* Video Demo Section */}
+        <div className="mt-16 mb-16">
+          <h3 className="text-3xl font-bold text-center mb-8" style={{ color: '#00D9FF' }}>
+            See Your AI Avatar In Action
+          </h3>
+          
+          <div className="max-w-3xl mx-auto rounded-lg overflow-hidden shadow-2xl">
+            <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
+              <iframe
+                src="https://www.youtube.com/embed/OaoxMSFnMo0?controls=0&modestbranding=1&rel=0&showinfo=0"
+                style={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  width: '100%',
+                  height: '100%',
+                  border: 'none'
+                }}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>      
         </div>
 
         {/* Features */}
