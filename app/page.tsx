@@ -14,7 +14,9 @@ export default function Home() {
         </header>
 
         {/* Hero Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16"><div className="text-8xl mb-6">
+            🤖
+          </div>
           <h2 className="text-4xl font-bold text-white mb-6">
             Create Your AI Avatar in Minutes
           </h2>
