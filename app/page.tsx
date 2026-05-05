@@ -25,12 +25,14 @@ export default function Home() {
             No complicated tools. No multiple platforms. Just one button.
           </p>
           
-          <button 
-            className="font-bold py-4 px-8 rounded-lg text-xl transition duration-200 transform hover:scale-105"
-            style={{ backgroundColor: '#FF3D71', color: 'white' }}
-          >
-            Get Started
-          </button>
+          <a href="/upload">
+  <button
+    className="font-bold py-4 px-8 rounded-lg text-xl transition duration-200 transform hover:scale-105"
+    style={{ backgroundColor: '#FF3D71', color: 'white' }}
+  >
+    Get Started
+  </button>
+</a>
 
     {/* Video Demo Section */}
         <div className="mt-16 mb-16">
