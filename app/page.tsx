@@ -5,12 +5,12 @@ export default function Home() {
         
         {/* Header */}
         <header className="text-center mb-16">
-          <h1 className="text-6xl font-bold mb-4" style={{ color: '#00D9FF' }}>
-            RookieAgent
-          </h1>
-          <p className="text-xl" style={{ color: '#7B61FF' }}>
-            AI Avatar Platform for Real Estate Agents
-          </p>
+        <h1 className="text-5xl font-bold mb-4" style={{ color: '#00D9FF' }}>
+  Real Estate Agents: Create Professional Marketing Videos in 3 Minutes
+</h1>
+<p className="text-xl text-gray-300">
+  Your personal AI avatar works 24/7 - no camera, no editing, no tech skills.
+</p>
         </header>
 
         {/* Hero Section */}
