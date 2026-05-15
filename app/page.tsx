@@ -52,25 +52,7 @@ export default function Home() {
                   height: '100%',
                   border: 'none'
                 }}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </div>      
-        </div>
-
-       
-       
-       {/* Video Gallery Section */}
-        <div className="mt-16 mb-16">
-          <h3 className="text-3xl font-bold text-center mb-8" style={{ color: '#00D9FF' }}>
-            See Different Styles & Settings
-          </h3>
-          
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            {/* Video 1 */}
-            <div className="rounded-lg overflow-hidden shadow-xl">
+               c
               <div className="relative" style={{ paddingBottom: '177.78%', height: 0 }}>
                 <iframe
                   src="https://www.youtube.com/embed/rTcZkdBVKHM"
@@ -169,6 +151,28 @@ export default function Home() {
               <p className="text-center mt-3 text-gray-300 font-semibold">Creative Space</p>
             </div>
           </div>
+
+          {/* Video 6 */}
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <div className="relative" style={{ paddingBottom: '177.78%', height: 0 }}>
+                <iframe
+                  src="https://www.youtube.com/embed/jnR4L9lkzKA"
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    border: 'none'
+                  }}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <p className="text-center mt-3 text-gray-300 font-semibold">Downtown Huntsville</p>
+            </div>
+
+            
         </div> {/* Features */}
         <div className="grid md:grid-cols-3 gap-8 mt-16">
           <div className="text-center p-6 rounded-lg bg-gray-800 bg-opacity-50 backdrop-blur-sm">
