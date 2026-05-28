@@ -1,43 +1,6 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
-      <div className="max-w-6xl mx-auto px-4 py-16">
-        
-        {/* Header */}
-        <header className="text-center mb-16">
-        <h1 className="text-5xl font-bold mb-4" style={{ color: '#00D9FF' }}>
-  Real Estate Agents: Create Professional Marketing Videos in 3 Minutes
-</h1>
-<p className="text-xl text-gray-300">
-  Your personal AI avatar works 24/7 - no camera, no editing, no tech skills.
-</p>
-        </header>
-
-        {/* Hero Section */}
-        <div className="text-center mb-16"><div className="text-8xl mb-6">
-            🤖
-          </div>
-          <h2 className="text-4xl font-bold text-white mb-6">
-            Create Your AI Avatar in Minutes
-          </h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Upload a photo, record your voice, and get a professional talking avatar. 
-            No complicated tools. No multiple platforms. Just one button.
-          </p>
-          
-          <a href="/upload">
-  <button
-    className="font-bold py-4 px-8 rounded-lg text-xl transition duration-200 transform hover:scale-105"
-    style={{ backgroundColor: '#FF3D71', color: 'white' }}
-  >
-    Get Started
-  </button>
-</a>
-
-    {/* Video Demo Section */}
-        <div className="mt-16 mb-16">
-          <h3 className="text-3xl font-bold text-center mb-8" style={{ color: '#00D9FF' }}>
-            See Your AI Avatar In Action
+    <mc
           </h3>
           
           <div className="max-w-3xl mx-auto rounded-lg overflow-hidden shadow-2xl">
